@@ -1,0 +1,127 @@
+/* Write your custom CSS here */
+.sign-out {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+}
+
+.sign-out a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.stars-y {
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+}
+
+.temp {
+    display: none;
+}
+
+.icon-custom {
+    margin-left: 3px;
+    margin-right: 11px;
+}
+
+.banner {
+    margin: 5px 60px;
+    width: 50px;
+    height: 50px;
+}
+
+.frame-noload {
+    display: none;
+}
+
+.bmark-hide {
+    display: none;
+}
+
+.div-hide {
+    display: none;
+}
+
+.projek-height {
+    height: 50% !important;
+}
+
+.button-indent {
+    margin: 2px;
+}
+
+.profile-img {
+    border-radius: 10%;
+}
+
+.card-img-full {
+    height: 15rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+
+    [aria-current="goToUrl"] {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+@media (min-width: 379px) {
+
+    .content-up-top {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 480px) {
+
+    .content-up-top {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .content-up-top {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .content-up-top {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .content-up-top {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .content-up-top {
+        margin-top: -15px;
+    }
+}
